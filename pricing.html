@@ -439,14 +439,9 @@
         .footer-container {
             max-width: 1200px;
             margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            gap: 5rem;
-            flex-wrap: wrap;
-        }
-
-        .footer-section {
-            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);  /* All equal */
+            gap: 3rem;
         }
 
         .footer-section h3 {
